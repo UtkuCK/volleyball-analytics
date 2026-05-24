@@ -11,7 +11,7 @@ A Python-based performance analytics tool for volleyball teams.
 - Kill Efficiency — Outside Hitter, Opposite, Middle Blocker
 - Aces and Blocks  — Outside Hitter, Opposite, Middle Blocker
 - Receive Ratio — Outside Hitter, Libero
-- Points and Errors — Setter
+- Aces, Blocks and Errors — Setter
 
 ## How to Use
 1. Fill in `team_stats.csv` with your match data

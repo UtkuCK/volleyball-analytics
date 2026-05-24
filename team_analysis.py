@@ -53,7 +53,7 @@ for pos_code in ['OH', 'OPP', 'MB']:
     plt.savefig(f'{pos_code}_Aces_Blocks_Trend.png')
     plt.close()
         
-    # Generate receive ratio trend charts for Outside Hitter and Libero
+    # Generate receive ratio trend charts for the Outside Hitters and Libero
     for pos_code in ['OH', 'L']:
      pos_df = df[df['Position'] == pos_code].copy()
      if pos_df.empty:
@@ -71,7 +71,7 @@ for pos_code in ['OH', 'OPP', 'MB']:
      plt.savefig(f'{pos_code}_Receive_Ratio_Trend.png')
      plt.close()
 
-    # Generate points and errors trend chart for Setter
+    # Generate aces, blocks and errors trend chart for the Setter
     pos_df = df[df['Position'] == 'S'].copy()
     plt.figure(figsize=(10, 5))
     for player in pos_df['Name'].unique():
@@ -79,13 +79,13 @@ for pos_code in ['OH', 'OPP', 'MB']:
         plt.plot(player_data['Match'], player_data['Aces'], marker='o', label=f'{player} - Aces')
         plt.plot(player_data['Match'], player_data['Blocks'], marker='s', label=f'{player} - Blocks')
         plt.plot(player_data['Match'], player_data['Errors'], marker='x', label=f'{player} - Errors')
-    plt.title('Setter - Point and Errors Trend')
+    plt.title('Setter - Aces, Blocks and Errors Trend')
     plt.xlabel('Match')
     plt.ylabel('Count')
     plt.xticks([1, 2, 3])
     plt.legend()
     plt.tight_layout()
-    plt.savefig('S_Points_Errors.png')
+    plt.savefig('S_Aces_Blocks_Errors.png')
     plt.close()
     
 print('All charts saved!')

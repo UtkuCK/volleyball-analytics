@@ -7,6 +7,9 @@ A Python-based performance analytics tool for volleyball teams.
 - Calculates position-specific performance metrics
 - Generates 9 charts automatically for each position
 
+## Who is this for?
+For small or local volleyball clubs that lack data tracking infrastructure. This tool is designed to be simple enough for a single coach to maintain.
+
 ## Charts Generated
 - Kill Efficiency for outside hitters, opposites and middle blockers
 - Aces and Blocks for outside hitters, opposites and middle blockers

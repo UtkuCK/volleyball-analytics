@@ -8,7 +8,7 @@ A Python-based performance analytics tool for volleyball teams.
 - Generates 9 charts automatically for each position
 
 ## Who is this for?
-For small or local volleyball clubs that lack data tracking infrastructure. This tool is designed to be simple enough for a single coach to maintain.
+ Most professional clubs have access to advanced analytics platforms. Small and local volleyball clubs don't. Coaches at this level make decisions based on memory and intuition alone. This tool was built by a competitive volleyball player who experienced this gap firsthand, giving grassroots clubs a simple, accessible way to track player performance across a season without any technical expertise required.
 
 ## Charts Generated
 - Kill Efficiency for outside hitters, opposites and middle blockers
